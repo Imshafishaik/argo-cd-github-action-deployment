@@ -16,7 +16,7 @@ jobs:
     steps:
       # Checkout
       - name: Checkout Code
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
 
       # # Java setup
       # - name: Set up JDK 17
@@ -45,7 +45,7 @@ jobs:
 
       # Build and Push Image
       - name: Build and Push Docker Image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v7
         with:
           context: .
           push: true

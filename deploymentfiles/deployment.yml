@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: webcont
-          image: shafismart/webapp:12
+          image: shafismart/webapp:5
 
           ports:
             - containerPort: 8080
